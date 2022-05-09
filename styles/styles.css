@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cajon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1em;
+    border-color: black;
+    width: 50vw;
+    height: 50vh;
+}
+
+.resultado span{
+    color: red;
+    font-size: x-large;
+}
